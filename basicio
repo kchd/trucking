@@ -1,0 +1,26 @@
+# Katterine Herra
+#   COMI 1150
+#   Programming Assignment 2 "Basic Input and Output"
+#   02/25/2016
+
+#1
+faveInt = int(raw_input("I, Guinevere Pendragon, Queen of Camelot, do not greet peasants haphazardly. \nTell me your favorite number before I throw you down the Gorge of Eternal Peril! "))
+
+#2
+faveFloat = float(raw_input("Good. Now, to demonstrate your intellect, tell me your favorite decimal. "))
+#3
+first = raw_input("What an obedient little peon you are. Tell me, what is your given name? ")
+last = raw_input("What is your family name? ")
+print "I supposed that's good enough. \nHello, " + first + "... wait, Sir " + first + " " + last + "!? Why you're no peon at all!"
+
+#4
+age = int(raw_input("Tell me your age, knight, as for my apology I will reward you with one lifetime of favorable kismet... "))
+
+magicNum = round((faveInt+faveFloat+age)/3,2)
+
+print "Wizard Merlin, out of wonder, come on out of your deep slumber. Give me Sir " + last + "'s " + "magic number! \nLook above! It reads " + str(magicNum) + "!"
+#5
+if magicNum <0:
+    print "Nu! \n... \nI mean, Ni!"
+else:
+    print "How very average."
